@@ -1,7 +1,6 @@
 from abc import ABC, abstractclassmethod
 from copy import deepcopy
 
-
 class TwoPlayerGame(ABC):
     move_response = "NO_RESPONSE"
 

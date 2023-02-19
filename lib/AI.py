@@ -1,8 +1,8 @@
 # from easyAI import AI_Player, Human_Player, Negamax, TwoPlayerGame
 
-from Player import AI_Player, Human_Player
-from TwoPlayGame import TwoPlayerGame
-from Negamax import Negamax
+from lib.Player import AI_Player, Human_Player
+from lib.TwoPlayGame import TwoPlayerGame
+from lib.Negamax import Negamax
 
 class GameController(TwoPlayerGame):
 

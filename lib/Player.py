@@ -3,8 +3,6 @@ This module implements the Player (Human or AI), which is basically an
 object with an ``ask_move(game)`` method
 """
 
-from Run_this_file import TkInterface
-
 try:
     input = raw_input
 except NameError:
